@@ -1,0 +1,40 @@
+﻿Build started 10/5/2015 8:31:15 PM.
+     1>Project "C:\Users\admin\Desktop\Anis-HCI\FaceTracker\msvc\Tracker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\src\lib /I..\opencv\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TRACKER_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"..\Temp\\" /Fd"..\Temp\Tracker.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\lib\CLM.cc ..\src\lib\FCheck.cc ..\src\lib\FDet.cc ..\src\lib\IO.cc ..\src\lib\Patch.cc ..\src\lib\PAW.cc ..\src\lib\PDM.cc ..\src\lib\Tracker.cc
+         CLM.cc
+         FCheck.cc
+         FDet.cc
+     1>..\src\lib\FDet.cc(98): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\FDet.cc(99): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+         IO.cc
+         Patch.cc
+     1>..\src\lib\Patch.cc(93): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         PAW.cc
+         PDM.cc
+         Tracker.cc
+     1>..\src\lib\Tracker.cc(138): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(140): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(141): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(152): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(153): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(173): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(177): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(178): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(181): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+     1>..\src\lib\Tracker.cc(182): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\bin\Tracker.lib" /NOLOGO /LTCG ..\Temp\CLM.obj
+         ..\Temp\FCheck.obj
+         ..\Temp\FDet.obj
+         ..\Temp\IO.obj
+         ..\Temp\Patch.obj
+         ..\Temp\PAW.obj
+         ..\Temp\PDM.obj
+         ..\Temp\Tracker.obj
+         Tracker.vcxproj -> C:\Users\admin\Desktop\Anis-HCI\FaceTracker\msvc\..\bin\Tracker.lib
+     1>Done Building Project "C:\Users\admin\Desktop\Anis-HCI\FaceTracker\msvc\Tracker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.92
